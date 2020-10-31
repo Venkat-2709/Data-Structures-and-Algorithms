@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func getMaxValue(arr []int) int {
+	/* getMaxValue Function will return the maximum value in the array */
 	maxValue := arr[0]
 	for i := 0; i < len(arr); i++ {
 		if arr[i] > maxValue {
