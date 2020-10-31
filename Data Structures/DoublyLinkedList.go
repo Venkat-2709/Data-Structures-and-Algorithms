@@ -6,12 +6,14 @@ import (
 )
 
 type Node struct {
+	/* Node Struct contains all the elements in each Node */
 	data interface{}
 	next *Node
 	prev *Node
 }
 
 func (n *Node) insertHead(head **Node, newData interface{}) {
+	/* insertHead Method will insert the data in the head of the list */
 	newNode := &Node{}
 	newNode.data = newData
 	newNode.next = *head
@@ -25,6 +27,7 @@ func (n *Node) insertHead(head **Node, newData interface{}) {
 }
 
 func (n *Node) insertAfter(prevNode *Node, newData interface{}) {
+	/* insertAfter Method will insert the data after the given Node */
 	if prevNode == nil {
 		_ = errors.New("previous node cannot be empty")
 		return
@@ -42,6 +45,7 @@ func (n *Node) insertAfter(prevNode *Node, newData interface{}) {
 }
 
 func (n *Node) insertBefore(head **Node, nextNode *Node, newData interface{}) {
+	/* insertBefore Method will insert the data before the given Node */
 	if nextNode == nil {
 		_ = errors.New("next node cannot be empty")
 		return
@@ -61,6 +65,7 @@ func (n *Node) insertBefore(head **Node, nextNode *Node, newData interface{}) {
 }
 
 func (n *Node) append(head **Node, newData interface{}) {
+	/* append Method will insert the data at the last */
 	newNode := &Node{}
 	lastNode := *head
 	newNode.data = newData
@@ -82,6 +87,7 @@ func (n *Node) append(head **Node, newData interface{}) {
 }
 
 func (n *Node) deleteHead(head **Node) {
+	/* deleteHead Method will delete the head Node */
 	if head == nil {
 		_ = errors.New("head node cannot be empty")
 		return
@@ -99,6 +105,7 @@ func (n *Node) deleteHead(head **Node) {
 }
 
 func (n *Node) deleteAfter(prevNode *Node) {
+	/* deleteAfter Method will delete the Node after the given Node */
 	if prevNode == nil {
 		_ = errors.New("previous node cannot be empty")
 		return
@@ -116,6 +123,7 @@ func (n *Node) deleteAfter(prevNode *Node) {
 }
 
 func (n *Node) deleteNode(head **Node) {
+	/* deleteNode Method will delete the last Node in the list */
 	if head == nil {
 		_ = errors.New("list cannot be empty")
 		return
@@ -132,6 +140,7 @@ func (n *Node) deleteNode(head **Node) {
 }
 
 func (n *Node) deleteValue(head **Node, delValue interface{}) {
+	/* deleteValue Method will delete the Node which contains the given value to be deleted */
 	if head == nil {
 		_ = errors.New("list cannot be empty")
 		return
@@ -163,6 +172,7 @@ func (n *Node) deleteValue(head **Node, delValue interface{}) {
 }
 
 func (n *Node) len(head **Node) int {
+	/* len Method will return the length of the list */
 	node := *head
 	length := 0
 	for node != nil {
@@ -174,6 +184,7 @@ func (n *Node) len(head **Node) int {
 }
 
 func (n *Node) isEmpty(head **Node) bool {
+	/* isEmpty Method will check if the given list is empty or not */
 	if (*head).len(head) == 0 {
 		return true
 	} else {
@@ -182,6 +193,7 @@ func (n *Node) isEmpty(head **Node) bool {
 }
 
 func (n *Node) getIndex(head **Node, value interface{}) int {
+	/* getIndex Method will return the index of the value in the list */
 	valueNode := *head
 	index := 0
 
@@ -197,6 +209,7 @@ func (n *Node) getIndex(head **Node, value interface{}) int {
 }
 
 func printList(node *Node) {
+	/* printList Function will print the list */
 	lastNode := &Node{}
 	fmt.Printf("\nForward \n")
 	for node != nil {
@@ -213,7 +226,8 @@ func printList(node *Node) {
 }
 
 func main() {
-	var head *Node
+	/* Main Function */
+	var head *Node // Creating a head Node with nil value
 
 	fmt.Printf("\nIs the list empty? %t\n", head.isEmpty(&head))
 
