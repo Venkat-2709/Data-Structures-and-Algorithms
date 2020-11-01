@@ -10,9 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="501d676d-715e-45a6-8a4b-c7509a7bf048" name="Default Changelist" comment="Initial Commit.">
+    <list default="true" id="501d676d-715e-45a6-8a4b-c7509a7bf048" name="Default Changelist" comment="Comments added.">
+      <change afterPath="$PROJECT_DIR$/Data Structures/Stack.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures/DoublyLinkedList.go" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/DoublyLinkedList.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Data Structures/DoublyLinkedList.go" />
   </component>
-  <component name="RunManager" selected="Go Build.go build RadixSort.go">
+  <component name="RunManager" selected="Go Build.go build Stack.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="GO" />
       <working_directory value="$PROJECT_DIR$" />
@@ -77,6 +77,14 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build Stack.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GO" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Data Structures/Stack.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go DoublyLinkedList.go DoublyLinkedList.go DoublyLinkedList.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="GO" />
       <working_directory value="$PROJECT_DIR$" />
@@ -90,9 +98,11 @@
       <item itemvalue="Go Build.go build DoublyLinkedList.go" />
       <item itemvalue="Go Build.go build DoublyLinkedList.go (1)" />
       <item itemvalue="Go Build.go build RadixSort.go" />
+      <item itemvalue="Go Build.go build Stack.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build Stack.go" />
         <item itemvalue="Go Build.go build RadixSort.go" />
         <item itemvalue="Go Build.go build DoublyLinkedList.go (1)" />
         <item itemvalue="Go Build.go build DoublyLinkedList.go" />
@@ -117,7 +127,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit." />
+    <MESSAGE value="Comments added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments added." />
   </component>
   <component name="WindowStateProjectService">
     <state x="454" y="212" width="1084" height="816" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603997886406">
@@ -128,41 +139,41 @@
       <screen x="72" y="29" width="1848" height="1051" />
     </state>
     <state x="779" y="312" width="447" height="491" key="FileChooserDialogImpl/72.29.1848.1051@72.29.1848.1051" timestamp="1604008843714" />
-    <state width="1802" height="265" key="GridCell.Tab.0.bottom" timestamp="1604011671434">
+    <state width="1802" height="265" key="GridCell.Tab.0.bottom" timestamp="1604200870988">
       <screen x="72" y="29" width="1848" height="1051" />
     </state>
-    <state width="1802" height="265" key="GridCell.Tab.0.bottom/72.29.1848.1051@72.29.1848.1051" timestamp="1604011671434" />
-    <state width="1802" height="265" key="GridCell.Tab.0.center" timestamp="1604011671433">
+    <state width="1802" height="265" key="GridCell.Tab.0.bottom/72.29.1848.1051@72.29.1848.1051" timestamp="1604200870988" />
+    <state width="1802" height="265" key="GridCell.Tab.0.center" timestamp="1604200870988">
       <screen x="72" y="29" width="1848" height="1051" />
     </state>
-    <state width="1802" height="265" key="GridCell.Tab.0.center/72.29.1848.1051@72.29.1848.1051" timestamp="1604011671433" />
-    <state width="1802" height="265" key="GridCell.Tab.0.left" timestamp="1604011671432">
+    <state width="1802" height="265" key="GridCell.Tab.0.center/72.29.1848.1051@72.29.1848.1051" timestamp="1604200870988" />
+    <state width="1802" height="265" key="GridCell.Tab.0.left" timestamp="1604200870988">
       <screen x="72" y="29" width="1848" height="1051" />
     </state>
-    <state width="1802" height="265" key="GridCell.Tab.0.left/72.29.1848.1051@72.29.1848.1051" timestamp="1604011671432" />
-    <state width="1802" height="265" key="GridCell.Tab.0.right" timestamp="1604011671434">
+    <state width="1802" height="265" key="GridCell.Tab.0.left/72.29.1848.1051@72.29.1848.1051" timestamp="1604200870988" />
+    <state width="1802" height="265" key="GridCell.Tab.0.right" timestamp="1604200870988">
       <screen x="72" y="29" width="1848" height="1051" />
     </state>
-    <state width="1802" height="265" key="GridCell.Tab.0.right/72.29.1848.1051@72.29.1848.1051" timestamp="1604011671434" />
-    <state width="1802" height="328" key="GridCell.Tab.1.bottom" timestamp="1603997953252">
+    <state width="1802" height="265" key="GridCell.Tab.0.right/72.29.1848.1051@72.29.1848.1051" timestamp="1604200870988" />
+    <state width="1802" height="328" key="GridCell.Tab.1.bottom" timestamp="1604200242159">
       <screen x="72" y="29" width="1848" height="1051" />
     </state>
-    <state width="1802" height="328" key="GridCell.Tab.1.bottom/72.29.1848.1051@72.29.1848.1051" timestamp="1603997953252" />
-    <state width="1802" height="328" key="GridCell.Tab.1.center" timestamp="1603997953252">
+    <state width="1802" height="328" key="GridCell.Tab.1.bottom/72.29.1848.1051@72.29.1848.1051" timestamp="1604200242159" />
+    <state width="1802" height="328" key="GridCell.Tab.1.center" timestamp="1604200242159">
       <screen x="72" y="29" width="1848" height="1051" />
     </state>
-    <state width="1802" height="328" key="GridCell.Tab.1.center/72.29.1848.1051@72.29.1848.1051" timestamp="1603997953252" />
-    <state width="1802" height="328" key="GridCell.Tab.1.left" timestamp="1603997953251">
+    <state width="1802" height="328" key="GridCell.Tab.1.center/72.29.1848.1051@72.29.1848.1051" timestamp="1604200242159" />
+    <state width="1802" height="328" key="GridCell.Tab.1.left" timestamp="1604200242159">
       <screen x="72" y="29" width="1848" height="1051" />
     </state>
-    <state width="1802" height="328" key="GridCell.Tab.1.left/72.29.1848.1051@72.29.1848.1051" timestamp="1603997953251" />
-    <state width="1802" height="328" key="GridCell.Tab.1.right" timestamp="1603997953252">
+    <state width="1802" height="328" key="GridCell.Tab.1.left/72.29.1848.1051@72.29.1848.1051" timestamp="1604200242159" />
+    <state width="1802" height="328" key="GridCell.Tab.1.right" timestamp="1604200242159">
       <screen x="72" y="29" width="1848" height="1051" />
     </state>
-    <state width="1802" height="328" key="GridCell.Tab.1.right/72.29.1848.1051@72.29.1848.1051" timestamp="1603997953252" />
-    <state x="591" y="286" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1604010946421">
+    <state width="1802" height="328" key="GridCell.Tab.1.right/72.29.1848.1051@72.29.1848.1051" timestamp="1604200242159" />
+    <state x="591" y="286" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1604188389429">
       <screen x="72" y="29" width="1848" height="1051" />
     </state>
-    <state x="591" y="286" width="800" height="543" key="Vcs.Push.Dialog.v2/72.29.1848.1051@72.29.1848.1051" timestamp="1604010946421" />
+    <state x="591" y="286" width="800" height="543" key="Vcs.Push.Dialog.v2/72.29.1848.1051@72.29.1848.1051" timestamp="1604188389429" />
   </component>
 </project>
