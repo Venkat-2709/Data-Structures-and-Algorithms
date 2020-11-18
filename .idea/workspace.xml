@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="501d676d-715e-45a6-8a4b-c7509a7bf048" name="Default Changelist" comment="Initial Commit.">
-      <change afterPath="$PROJECT_DIR$/Algorithms/IntepolationSearch.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Structures/Queue.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,9 +41,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Data Structures/DoublyLinkedList.go" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Go Build.go build IntepolationSearch.go">
+  <component name="RunManager" selected="Go Build.go build Queue.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="GO" />
       <working_directory value="$PROJECT_DIR$" />
@@ -53,27 +53,27 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build DoublyLinkedList.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build IntepolationSearch.go MergeSort.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GO" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Data Structures/DoublyLinkedList.go" />
+      <filePath value="$PROJECT_DIR$/Algorithms/IntepolationSearch.go|$PROJECT_DIR$/Algorithms/MergeSort.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build DoublyLinkedList.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build MergeSort.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GO" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/DoublyLinkedList.go|$PROJECT_DIR$/Data Structures/DoublyLinkedList.go" />
+      <filePath value="$PROJECT_DIR$/Algorithms/MergeSort.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build IntepolationSearch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build Queue.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GO" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Algorithms/IntepolationSearch.go" />
+      <filePath value="$PROJECT_DIR$/Data Structures/Queue.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -103,19 +103,19 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build main.go DoublyLinkedList.go DoublyLinkedList.go DoublyLinkedList.go" />
-      <item itemvalue="Go Build.go build DoublyLinkedList.go" />
-      <item itemvalue="Go Build.go build DoublyLinkedList.go (1)" />
       <item itemvalue="Go Build.go build RadixSort.go" />
       <item itemvalue="Go Build.go build Stack.go" />
-      <item itemvalue="Go Build.go build IntepolationSearch.go" />
+      <item itemvalue="Go Build.go build IntepolationSearch.go MergeSort.go" />
+      <item itemvalue="Go Build.go build MergeSort.go" />
+      <item itemvalue="Go Build.go build Queue.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build IntepolationSearch.go" />
+        <item itemvalue="Go Build.go build Queue.go" />
+        <item itemvalue="Go Build.go build MergeSort.go" />
+        <item itemvalue="Go Build.go build IntepolationSearch.go MergeSort.go" />
         <item itemvalue="Go Build.go build Stack.go" />
         <item itemvalue="Go Build.go build RadixSort.go" />
-        <item itemvalue="Go Build.go build DoublyLinkedList.go (1)" />
-        <item itemvalue="Go Build.go build DoublyLinkedList.go" />
       </list>
     </recent_temporary>
   </component>
@@ -141,49 +141,49 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial Commit." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="454" y="212" width="1084" height="816" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603997886406">
+    <state x="454" y="212" width="1084" height="860" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605576483767">
       <screen x="72" y="29" width="1848" height="1051" />
     </state>
-    <state x="454" y="212" width="1084" height="816" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.29.1848.1051@72.29.1848.1051" timestamp="1603997886406" />
-    <state x="779" y="312" width="447" height="491" key="FileChooserDialogImpl" timestamp="1604008843714">
+    <state x="454" y="212" width="1084" height="860" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.29.1848.1051@72.29.1848.1051" timestamp="1605576483767" />
+    <state x="779" y="312" width="447" height="491" key="FileChooserDialogImpl" timestamp="1605576251173">
       <screen x="72" y="29" width="1848" height="1051" />
     </state>
-    <state x="779" y="312" width="447" height="491" key="FileChooserDialogImpl/72.29.1848.1051@72.29.1848.1051" timestamp="1604008843714" />
-    <state width="1802" height="328" key="GridCell.Tab.0.bottom" timestamp="1604357535396">
+    <state x="779" y="312" width="447" height="491" key="FileChooserDialogImpl/72.29.1848.1051@72.29.1848.1051" timestamp="1605576251173" />
+    <state width="1802" height="328" key="GridCell.Tab.0.bottom" timestamp="1605723468664">
       <screen x="72" y="29" width="1848" height="1051" />
     </state>
-    <state width="1802" height="328" key="GridCell.Tab.0.bottom/72.29.1848.1051@72.29.1848.1051" timestamp="1604357535396" />
-    <state width="1802" height="328" key="GridCell.Tab.0.center" timestamp="1604357535396">
+    <state width="1802" height="328" key="GridCell.Tab.0.bottom/72.29.1848.1051@72.29.1848.1051" timestamp="1605723468664" />
+    <state width="1802" height="328" key="GridCell.Tab.0.center" timestamp="1605723468662">
       <screen x="72" y="29" width="1848" height="1051" />
     </state>
-    <state width="1802" height="328" key="GridCell.Tab.0.center/72.29.1848.1051@72.29.1848.1051" timestamp="1604357535396" />
-    <state width="1802" height="328" key="GridCell.Tab.0.left" timestamp="1604357535395">
+    <state width="1802" height="328" key="GridCell.Tab.0.center/72.29.1848.1051@72.29.1848.1051" timestamp="1605723468662" />
+    <state width="1802" height="328" key="GridCell.Tab.0.left" timestamp="1605723468661">
       <screen x="72" y="29" width="1848" height="1051" />
     </state>
-    <state width="1802" height="328" key="GridCell.Tab.0.left/72.29.1848.1051@72.29.1848.1051" timestamp="1604357535395" />
-    <state width="1802" height="328" key="GridCell.Tab.0.right" timestamp="1604357535396">
+    <state width="1802" height="328" key="GridCell.Tab.0.left/72.29.1848.1051@72.29.1848.1051" timestamp="1605723468661" />
+    <state width="1802" height="328" key="GridCell.Tab.0.right" timestamp="1605723468663">
       <screen x="72" y="29" width="1848" height="1051" />
     </state>
-    <state width="1802" height="328" key="GridCell.Tab.0.right/72.29.1848.1051@72.29.1848.1051" timestamp="1604357535396" />
-    <state width="1802" height="328" key="GridCell.Tab.1.bottom" timestamp="1604357535397">
+    <state width="1802" height="328" key="GridCell.Tab.0.right/72.29.1848.1051@72.29.1848.1051" timestamp="1605723468663" />
+    <state width="1802" height="328" key="GridCell.Tab.1.bottom" timestamp="1605723402553">
       <screen x="72" y="29" width="1848" height="1051" />
     </state>
-    <state width="1802" height="328" key="GridCell.Tab.1.bottom/72.29.1848.1051@72.29.1848.1051" timestamp="1604357535397" />
-    <state width="1802" height="328" key="GridCell.Tab.1.center" timestamp="1604357535396">
+    <state width="1802" height="328" key="GridCell.Tab.1.bottom/72.29.1848.1051@72.29.1848.1051" timestamp="1605723402553" />
+    <state width="1802" height="328" key="GridCell.Tab.1.center" timestamp="1605723402552">
       <screen x="72" y="29" width="1848" height="1051" />
     </state>
-    <state width="1802" height="328" key="GridCell.Tab.1.center/72.29.1848.1051@72.29.1848.1051" timestamp="1604357535396" />
-    <state width="1802" height="328" key="GridCell.Tab.1.left" timestamp="1604357535396">
+    <state width="1802" height="328" key="GridCell.Tab.1.center/72.29.1848.1051@72.29.1848.1051" timestamp="1605723402552" />
+    <state width="1802" height="328" key="GridCell.Tab.1.left" timestamp="1605723402552">
       <screen x="72" y="29" width="1848" height="1051" />
     </state>
-    <state width="1802" height="328" key="GridCell.Tab.1.left/72.29.1848.1051@72.29.1848.1051" timestamp="1604357535396" />
-    <state width="1802" height="328" key="GridCell.Tab.1.right" timestamp="1604357535397">
+    <state width="1802" height="328" key="GridCell.Tab.1.left/72.29.1848.1051@72.29.1848.1051" timestamp="1605723402552" />
+    <state width="1802" height="328" key="GridCell.Tab.1.right" timestamp="1605723402553">
       <screen x="72" y="29" width="1848" height="1051" />
     </state>
-    <state width="1802" height="328" key="GridCell.Tab.1.right/72.29.1848.1051@72.29.1848.1051" timestamp="1604357535397" />
-    <state x="591" y="286" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1604201048668">
+    <state width="1802" height="328" key="GridCell.Tab.1.right/72.29.1848.1051@72.29.1848.1051" timestamp="1605723402553" />
+    <state x="591" y="286" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1604357803612">
       <screen x="72" y="29" width="1848" height="1051" />
     </state>
-    <state x="591" y="286" width="800" height="543" key="Vcs.Push.Dialog.v2/72.29.1848.1051@72.29.1848.1051" timestamp="1604201048668" />
+    <state x="591" y="286" width="800" height="543" key="Vcs.Push.Dialog.v2/72.29.1848.1051@72.29.1848.1051" timestamp="1604357803612" />
   </component>
 </project>
